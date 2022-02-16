@@ -10,7 +10,7 @@ sources:
         description: Raw customers data.
         columns:
           - name: id
-            description: Primary key for customers
+            description: Primary key for customers data.
             tests:
               - unique
               - not_null
@@ -24,7 +24,7 @@ sources:
           error_after: {count: 24, period: hour }
         columns: 
           - name: id
-            description: Primary key for orders.
+            description: Primary key for orders data.
             tests:
               - unique
               - not_null
